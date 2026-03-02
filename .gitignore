@@ -1,0 +1,20 @@
+# Audio output
+*.mp3
+*_chunks/
+.*_chunks/
+
+# Screenshots and OCR output
+screenshots/
+book_raw.txt
+
+# Extracted book text (personal content)
+*.txt
+!requirements.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Credentials
+*.json
